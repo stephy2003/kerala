@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+   background: url(https://c.myholidays.com/blog/blog/content/images/2021/03/Places-To-Visit-In-Kerala.jpg); 
+   background-attachment: fixed;
+   background-size: cover;
+   font-family: 'Times New Roman';
+}
+.h1{
+    font-size: 40px;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.label{
+    font-size: 19px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+.form-control{
+    background: rgba(255,255, 255, 0.2);
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 2px solid white;
+    font-size: 21px;
+    color: white;
+    margin-top: 20px;
+}
+
+.small{
+    font-size: 18px;
+    color: black;
+
+}
+
+.btn-info{
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 180px;
+    font-size: 19px;
+    border-radius: 1000px;
+}
+
+
+.pic{
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source:  var(--gradient) !important; 
+    display: flex;
+    justify-content: center;
+  }
